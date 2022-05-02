@@ -1,0 +1,56 @@
+{
+  "name": "tailwindcss-iconify",
+  "private": true,
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/InfiniteXyy/tailwindcss-iconify",
+  "description": "A tailwindcss plugin for iconify",
+  "author": {
+    "email": "xuyiyangwing@gmail.com",
+    "name": "Yiyang Xu"
+  },
+  "keywords": [
+    "tailwindcss",
+    "iconify",
+    "icon",
+    "tailwindcss-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InfiniteXyy/tailwindcss-iconify"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup ./src --dts --clean",
+    "watch": "tsup ./src --dts --watch"
+  },
+  "dependencies": {
+    "@iconify/utils": "^1.0.32"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=3.0.0 <=4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "@types/tailwindcss": "^3.0.10",
+    "prettier": "^2.6.2",
+    "tailwindcss": "^3.0.24",
+    "tsup": "^5.12.6",
+    "typescript": "^4.6.4"
+  }
+}
