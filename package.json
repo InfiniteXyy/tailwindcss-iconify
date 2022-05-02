@@ -1,6 +1,5 @@
 {
   "name": "tailwindcss-iconify",
-  "private": true,
   "version": "0.0.1",
   "license": "MIT",
   "main": "dist/index.js",
@@ -37,7 +36,9 @@
   },
   "scripts": {
     "build": "tsup ./src --dts --clean",
-    "watch": "tsup ./src --dts --watch"
+    "watch": "tsup ./src --dts --watch",
+    "prepare": "npm run build",
+    "release": "npm publish --registry https://registry.npmjs.org"
   },
   "dependencies": {
     "@iconify/utils": "^1.0.32"
