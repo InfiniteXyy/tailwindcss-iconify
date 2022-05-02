@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-iconify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,7 +23,8 @@
   "files": [
     "dist",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "CHANGELOG"
   ],
   "exports": {
     "./package.json": "./package.json",
