@@ -50,4 +50,4 @@ If are using VSCode, and want to get a better Development Experience, you can in
 
 This project is simple and nearly the same as @unocss/preset-icon.
 
-If you want to get the fully supported iconify support in css, you should try **unocss** , it's a fast and small Atomic-CSS generator. Although it has not released it's 1.0 version, it's already promising and stable for me.
+If you want to get the fully supported iconify support in css, you can try **unocss** , it's a fast and small Atomic-CSS generator alternative.
