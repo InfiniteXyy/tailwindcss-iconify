@@ -1,5 +1,10 @@
 # tailwindcss-iconify
 
+<a href="https://github.com/infinitexyy/tailwindcss-iconify/actions"><img src="https://img.shields.io/github/workflow/status/infinitexyy/tailwindcss-iconify/main.svg" alt="Build Status"></a>
+<a href="https://codecov.io/gh/infinitexyy/tailwindcss-iconify"><img src="https://img.shields.io/codecov/c/github/infinitexyy/tailwindcss-iconify.svg" alt="Code Coverage"></a>
+<a href="https://npmjs.com/package/tailwindcss-iconify"><img src="https://img.shields.io/npm/v/tailwindcss-iconify.svg" alt="npm-v"></a>
+<a href="https://npmjs.com/package/tailwindcss-iconify"><img src="https://img.shields.io/npm/dt/tailwindcss-iconify.svg" alt="npm-d"></a>
+
 Tailwindcss plugin for iconify
 
 A Copy of [@unocss/preset-icon](https://github.com/unocss/unocss/blob/main/packages/preset-icons/README.md) in tailwind world, based on antfu's post [Icons in pure css](https://antfu.me/posts/icons-in-pure-css)
@@ -39,7 +44,6 @@ Use icon within the component class
 ```
 
 If are using VSCode, and want to get a better Development Experience, you can install the `Iconify IntelliSense` VSCode Plugin.
-
 
 ### TODO
 
