@@ -14,7 +14,7 @@ function App() {
           className="i-[carbon-logo-github]"
         />
         <a href="https://tailwindcss.com/" className="hover:underline">
-          Tailwind
+          Tailwind CSS
         </a>
         <div className="i-[mdi-heart] text-xl text-red-400" />
         <a href="https://iconify.design/" className="hover:underline">

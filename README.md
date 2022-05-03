@@ -5,9 +5,15 @@
 <a href="https://npmjs.com/package/tailwindcss-iconify"><img src="https://img.shields.io/npm/v/tailwindcss-iconify.svg" alt="npm-v"></a>
 <a href="https://npmjs.com/package/tailwindcss-iconify"><img src="https://img.shields.io/npm/dt/tailwindcss-iconify.svg" alt="npm-d"></a>
 
-Tailwindcss plugin for iconify
+Tailwind CSS plugin for Iconify.
 
-A Copy of [@unocss/preset-icon](https://github.com/unocss/unocss/blob/main/packages/preset-icons/README.md) in tailwind world, based on antfu's post [Icons in pure css](https://antfu.me/posts/icons-in-pure-css)
+Bring [@unocss/preset-icon](https://github.com/unocss/unocss/blob/main/packages/preset-icons/README.md) to Tailwind CSS, based on antfu's post [Icons in pure css](https://antfu.me/posts/icons-in-pure-css)
+
+## Why
+
+- No need to install additional Icon libraries
+- Only used icons are included, thanks to Tailwind Purge
+- Easy to switch icons with CSS: `i-[carbon-star] hover:i-[carbon-star-filled]`
 
 ## Demo
 
@@ -15,19 +21,18 @@ https://tailwindcss-iconify.vercel.app
 
 ## Installation
 
-```bash
-# install plugin
-yarn add -D tailwindcss-iconify
+1. Install this plugin
 
-# install your iconset
+```bash
+# 1. install plugin
+yarn add -D tailwindcss-iconify
+# 2. install your needed iconset
 yarn add -D @iconify-json/carbon
-# [Optional] Or install them all(about 130MB)
+#    [Optional] install all the icons (about 130MB)
 yarn add -D @iconify/json
 ```
 
-## Usage
-
-Add this plugin to your `tailwind.config.js`:
+2. Add this plugin to your `tailwind.config.js`:
 
 ```javascript
 module.exports = {
@@ -37,21 +42,19 @@ module.exports = {
 }
 ```
 
-Use icon within the component class
+## Usage
 
 ```tsx
-<div className="i-[carbon-logo-github]" />
+<div className="i-[carbon-star] hover:i-[carbon-star-filled]" />
 ```
 
 If are using VSCode, and want to get a better Development Experience, you can install the `Iconify IntelliSense` VSCode Plugin.
 
 ### TODO
 
-- [ ] Support more configurations as @unocss/preset-icon
+- [ ] Support more configurations, like custom properties
 - [ ] Support custom icon sets
 
 ### Thanks
 
-This project is simple and nearly the same as @unocss/preset-icon.
-
-If you want to get the fully supported iconify support in css, you can try **unocss** , it's a fast and small Atomic-CSS generator alternative.
+This project is greatly inspired by @unocss/preset-icon. If you want to get the fully supported iconify support in css, you can try **unocss** , it's a fast and small Atomic-CSS generator alternative.
