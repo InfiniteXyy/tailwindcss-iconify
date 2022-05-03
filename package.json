@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-iconify",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -38,6 +38,7 @@
   "scripts": {
     "build": "tsup ./src --dts --clean",
     "watch": "tsup ./src --dts --watch",
+    "test": "vitest --run --coverage",
     "prepare": "npm run build",
     "release": "npm publish --registry https://registry.npmjs.org"
   },
@@ -50,9 +51,11 @@
   "devDependencies": {
     "@types/node": "^17.0.31",
     "@types/tailwindcss": "^3.0.10",
+    "postcss": "^8.4.13",
     "prettier": "^2.6.2",
     "tailwindcss": "^3.0.24",
     "tsup": "^5.12.6",
-    "typescript": "^4.6.4"
+    "typescript": "^4.6.4",
+    "vitest": "^0.10.1"
   }
 }

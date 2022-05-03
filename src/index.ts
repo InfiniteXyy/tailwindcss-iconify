@@ -4,7 +4,7 @@ import { resolve } from 'path'
 import { encodeSvgForCss } from '@iconify/utils/lib/svg/encode-svg-for-css'
 import { PluginIconifyOptions } from './types'
 
-export default function PluginIconify(props: PluginIconifyOptions) {
+export default function PluginIconify(props?: PluginIconifyOptions) {
   const { scale = 1, mode = 'auto', prefix = 'i-', unit = 'em' } = props || {}
 
   const sharedProps = {
