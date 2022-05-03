@@ -45,7 +45,7 @@ plugins: [require('tailwindcss-iconify').default()],
         >
           {({ className, style, tokens, getLineProps, getTokenProps }) => (
             <pre
-              className={`${className} whitespace-pre-wrap break-all rounded-lg p-4`}
+              className={`${className} max-w-full overflow-x-auto rounded-lg p-4`}
               style={style}
             >
               {tokens.map((line, i) => (
