@@ -1,6 +1,6 @@
 # tailwindcss-iconify
 
-<a href="https://github.com/infinitexyy/tailwindcss-iconify/actions"><img src="https://img.shields.io/github/workflow/status/infinitexyy/tailwindcss-iconify/main.svg" alt="Build Status"></a>
+<a href="https://github.com/infinitexyy/tailwindcss-iconify/actions"><img src="https://img.shields.io/github/workflow/status/infinitexyy/tailwindcss-iconify/test.svg" alt="Build Status"></a>
 <a href="https://codecov.io/gh/infinitexyy/tailwindcss-iconify"><img src="https://img.shields.io/codecov/c/github/infinitexyy/tailwindcss-iconify.svg" alt="Code Coverage"></a>
 <a href="https://npmjs.com/package/tailwindcss-iconify"><img src="https://img.shields.io/npm/v/tailwindcss-iconify.svg" alt="npm-v"></a>
 <a href="https://npmjs.com/package/tailwindcss-iconify"><img src="https://img.shields.io/npm/dt/tailwindcss-iconify.svg" alt="npm-d"></a>
